@@ -1,0 +1,13 @@
+        <?php if($this->includeCopyright??true){?>
+        <!-- COPYRIGHT -->
+        <footer class="footer">
+            <span class="text-black text-center">
+                <div><?php echo $this->partial('partial/copyright');?></div>
+            </span>
+        </footer>
+        <?php } ?>
+        <!-- Head Script -->
+        <?php echo $this->headScript()
+        ?>
+</body>
+</html>

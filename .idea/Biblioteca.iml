@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/module/Application/src" isTestSource="false" packagePrefix="Application\" />
       <sourceFolder url="file://$MODULE_DIR$/module/Application/test" isTestSource="true" packagePrefix="ApplicationTest\" />
+      <sourceFolder url="file://$MODULE_DIR$/module/Authentication/src" isTestSource="false" packagePrefix="Authentication\" />
+      <sourceFolder url="file://$MODULE_DIR$/module/Useful/src" isTestSource="false" packagePrefix="Useful\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-router" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-modulemanager" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webimpress/safe-writer" />

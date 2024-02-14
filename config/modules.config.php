@@ -9,4 +9,6 @@ return [
     'Laminas\Router',
     'Laminas\Validator',
     'Application',
+    'Authentication',
+    'Useful'
 ];

@@ -1,0 +1,17 @@
+<?php echo $this->partial('layout/auth/header'); ?>
+    <!-- BEGIN CONTENT -->
+    <!--begin::Root-->
+    <div class="d-flex flex-column flex-root">
+        <!--begin::Authentication - Sign-in -->
+        <div class="d-flex flex-column flex-lg-row flex-column-fluid">
+            <!-- Aside-->
+<!--            --><?php //echo $this->partial('partial/sign/aside'); ?>
+            <!-- Body -->
+<!--            --><?php //echo $this->partial('partial/spinners'); ?>
+            <?php echo $this->content; ?>
+        </div>
+        <!--end::Authentication - Sign-in-->
+    </div>
+    <!--end::Root-->
+    <!-- END CONTENT -->
+<?php echo $this->partial('layout/auth/footer', ['includeCopyright' => false]); ?>
