@@ -1,68 +1,44 @@
-<?php
-/**
- * @var Laminas\View\Renderer\PhpRenderer $this
- */
-?>
-<div class="jumbotron">
-    <h1 class="display-4">Welcome to<br>Laminas MVC Skeleton Application</h1>
-
-    <p>
-        Congratulations! You have successfully installed the
-        <a href="https://github.com/laminas/laminas-mvc-skeleton" target="_blank">Laminas MVC Skeleton</a>.
-        This skeleton can serve as a simple starting point for you to begin
-        building your application on Laminas MVC.
-    </p>
-
-    <hr class="my-4">
-
-    <a class="btn btn-primary btn-lg" href="https://github.com/laminas" target="_blank">
-        Check Laminas on GitHub &raquo;
-    </a>
+<!-- Navbar Start -->
+<div class="container-fluid bg-light position-relative shadow">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
+        <a href="" class="navbar-brand font-weight-bold text-secondary" style="font-size: 50px;">
+            <img src="<?php echo $this->basePath('img/favicon.ico'); ?>" height="50" width="50">
+            <span class="text-primary">BiblioTech</span>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav font-weight-bold mx-auto py-0">
+                </div>
+            <a href="" class="btn btn-primary px-4">Entrar</a>
+        </div>
+    </nav>
 </div>
+<!-- Navbar End -->
 
-<div class="card-deck">
-    <div class="card">
-        <h2 class="card-header">Follow Development</h2>
-        <div class="card-body">
-            <p>
-                Laminas Project is under active development. If you are
-                interested in following the development, you can check
-                <a href="https://getlaminas.org/blog/">Laminas dev blog</a>,
-                and <a href="https://github.com/issues?utf8=%E2%9C%93&amp;q=is:issue+org:laminas">Laminas issue tracker</a>
-                (link requires a GitHub account). This is a great resource
-                for staying up to date with the latest developments!
-            </p>
-
-            <a class="btn btn-primary" href="https://getlaminas.org/" target="_blank">Laminas Project Portal &raquo;</a>
+<!-- Header Start -->
+<div class="container-fluid bg-primary px-0 px-md-5">
+    <div class="row align-items-center px-3">
+        <div class="col-lg-6 text-center text-lg-left">
+            <h4 class="text-white mb-4 mt-5 mt-lg-0">Rabindranath Tagore Dos Santos Pires Emef</h4>
+            <h1 class="display-3 font-weight-bold text-white">Conhecimento em Movimento</h1>
+            <p class="text-white mb-4">
+                Um sistema de biblioteca escolar eficiente é uma ferramenta fundamental para o
+                aprendizado e desenvolvimento dos alunos. Ao organizar e disponibilizar recursos
+                educacionais, desde livros até materiais multimídia, esse sistema promove o acesso
+                igualitário ao conhecimento. Além disso, ao oferecer serviços como empréstimos e
+                reservas, ele incentiva a leitura e pesquisa, contribuindo para o crescimento
+                intelectual da comunidade escolar.</p>
+            <a href="" class="btn btn-secondary mt-1 py-3 px-5">Venha conhecer</a>
         </div>
-    </div>
-
-    <div class="card">
-        <h2 class="card-header">Discover Modules</h2>
-        <div class="card-body">
-            <p>
-                Laminas MVC is a modular application.
-                You can find multiple compatible modules on packagist.
-            </p>
-
-            <a class="btn btn-primary" href="https://packagist.org/?tags=module~zf2~zendframework~zend%20framework~zend%20framework%202~zf3~zf~zend~laminas" target="_blank">
-                Explore Laminas Modules &raquo;
-            </a>
-        </div>
-    </div>
-
-    <div class="card">
-        <h2 class="card-header">Help &amp; Support</h2>
-        <div class="card-body">
-            <p>
-                If you need any help or support while developing with Laminas,
-                you may reach us via <a href="https://laminas.dev/chat">chat</a> or
-                <a href="https://discourse.laminas.dev">forum</a>.
-                We'd love to hear any questions or feedback you may have
-                regarding any release.
-            </p>
-
-            <a class="btn btn-primary" href="https://laminas.dev/chat" target="_blank">Ping us on chat &raquo;</a>
+        <div class="col-lg-6 text-center text-lg-right">
+            <img class="img-fluid mt-5" src="<?php echo $this->basePath('img/header.png'); ?>" alt="">
         </div>
     </div>
 </div>
+<!-- Header End -->
+
+
+
+<!-- Blog End -->
