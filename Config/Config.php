@@ -1,5 +1,5 @@
 <?php
-const base_url = "http://localhost/teste/";
+const base_url = "https://techbiblio.netlify.app/";
 const host = "localhost";
 const user = "root";
 const pass = "";
